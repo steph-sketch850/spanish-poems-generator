@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <title>AI Spanish Poem Generator</title>
 </head>
 
@@ -23,11 +23,11 @@
         <main>
             <div class="form-container">
                 <form id="poem-generator-form">
-                    <input type="text" id="input" placeholder="Enter a word or phrase" autofocus required
-                        aria-autocomplete="off" class="instructions" id="user-instructions" />
+                    <input type="text" placeholder="Enter a word or phrase for a Spanish poem" autofocus required
+                        autocomplete="off" class="instructions" id="user-instructions" />
                     <input type="submit" value="Generate" class="submit-button" />
                 </form>
-                <div class="hint">Enter a word or phrase to generate a poem.</div>
+                <div class="hint">i.e: Trees, flowers or a color</div>
             </div>
             <div class="poem hidden" id="poem"></div>
         </main>
