@@ -68,9 +68,17 @@ input[type="text"] {
     margin-bottom: 30px;
 }
 
+.poem strong {
+    color: #b56161;
+}
+
 footer {
     text-align: center;
     color: #000000;
     font-size: 14px;
     margin-top: 30px;
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
 }
